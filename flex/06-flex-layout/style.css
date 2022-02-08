@@ -25,3 +25,61 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/*Modified by me merengues*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #585858;
+}
+
+.header, .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header .left-links, .header .right-links {
+  display: flex;
+  gap: 24px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.content .input, .content .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 12px;
+}
+
+.buttons {
+  gap: 8px;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.footer .left-links, .footer .right-links {
+  display: flex;
+  gap: 24px;
+}
