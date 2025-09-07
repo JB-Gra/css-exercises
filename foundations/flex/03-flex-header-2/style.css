@@ -12,7 +12,23 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* My code */
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+/* My code - START - */
+
+.left-content,
+.right-content {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* My code - END - */
 
 .profile-image {
   background: rebeccapurple;
@@ -45,4 +61,8 @@ a {
 
 ul {
   list-style-type: none;
+  /* My code */
+  display: flex;
+  gap: 1rem;
+  padding: 0;
 }
